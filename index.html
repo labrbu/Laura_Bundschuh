@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Bundschuh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav id="desktop-nav">
+            <div class="logo-container">
+                <img src="./assets/Fußball_icon_white.png" alt="Logo Fußball" class="logo-img">
+                <div class="logo">Laura Bundschuh</div>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#experience">Erfahrung</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Hamburger Section -->
+    <nav id="hamburger-nav">
+        <div class="logo">Laura Bundschuh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Über mich</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Erfahrung</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projekte</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Hamburger Section End -->
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic-laura.png" alt="Laura Bundschuh profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hallo, ich bin</p>
+            <h1 class="title"><span class="title-color">Laura</span> Bundschuh</h1>
+            <p class="section__text__p2">Fußballtrainerin</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Lebenslauf_Laura Bundschuh.pdf')" target="_blank">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href=('./#contact')">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'"> <!-- Add Profiles -->
+                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/'">
+            </div>
+        </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- About Section -->
+    <section id="about">
+      <p class="section__text__p1">Erfahren Sie mehr</p>
+      <h1 class="title"><span class="title-color">Über</span> Mich</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic_2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Erfahrung</h3>
+              <p>3+ Jahre <br />Fußballtrainerin <br />im Nachwuchsbereich</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Ausbildung</h3>
+              <p>ÖFB-D-Lizenz<br />UEFA-C-Lizenz</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Als engagierte Fußballtrainerin mit über drei Jahren Erfahrung im Nachwuchsbereich bringe ich umfangreiche praktische Kenntnisse in der Entwicklung junger Spielerinnen und Spieler mit. Durch meine Ausbildungen – die ÖFB-D-Lizenz sowie die UEFA-C-Lizenz – vereine ich fundiertes Fachwissen mit modernen Trainingsmethoden. Mit Leidenschaft, Struktur und einem klaren Blick für individuelle Stärken fördere ich nachhaltige sportliche und persönliche Entwicklung im Team.
+            </p>
+          </div>
+        </div>
+      </div>
+        <!-- <img src="./assets/arrow.png" alt="Arrow-top icon" class="icon arrow-top" onclick="location.href='./#desktop-nav'"/> -->
+      <img
+        src="./assets/Fußball_icon.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- About Section End -->
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">Entdecken Sie</p>
+        <h1 class="title"><span class="title-color">Meine</span> Erfahrungen</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Trainerische & Methodische Kompetenzen</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>3+ Jahre Erfahrung</h3>
+                                <p>im Nachwuchsbereich</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Planung und Durchführung</h3>
+                                <p>altersgerechter Einheiten</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Vermittlung</h3>
+                                <p>technischer und taktischer Grundlagen</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Individuelle Förderungen</h3>
+                                <p>junger Spieler:innen</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Saison- und Wochen- <br/>planung</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Einsatz moderner Methoden</h3>
+                                <!-- <p>ÖFB-D-, UEFA-C-Lizenz</p> -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Pädagogische, Soziale & Organisatorische Stärken</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Aufbau eines</h3>
+                                <p>motivierenden Teamklimas</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Kommunikation</h3>
+                                <p>klar und kindgerecht</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Vermittlung von</h3>
+                                <p>Fair Play und Teamgeist</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Betreuung bei</h3>
+                                <p>Spielen und Turnieren</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Zuverlässige Organisation</h3>
+                                <p>von Abläufen und Material</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Fußball_icon.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Geduldiger, respektvoller Umgang</h3>
+                                <p>mit Kindern</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="./assets/arrow.png" alt="Arrow-top icon" class="icon arrow-top" onclick="location.href='./#desktop-nav'"/> -->
+        <img src="./assets/Fußball_icon.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <!-- Experience Section End -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <p class="section__text__p1">Meine</p>
+        <h1 class="title"><span class="title-color">Aktuellen</span> Projekte</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Nachwuchstraining.jpg" alt="Nachwuchstraining U8-U10" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Nachwuchstraining <br/> U8-U10</h2>
+                    <div class="btn-container">
+                        <p>Konzeption und Umsetzung eines altersgerechten Trainingsprogramms mit klaren technischen und taktischen Schwerpunkten.</p>
+                        <!-- <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            GitHub
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button> -->
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Förderprogramm.jpg" alt="Individuelles Förderprogramm" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Individuelles Förderprogramm</h2>
+                    <div class="btn-container">
+                        <p>Entwicklung personalisierter Trainingspläne zur technischen und spielerischen Weiterentwicklung einzelner Talente.</p>
+                        <!-- <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            GitHub
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button> -->
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Turniervorbereitun.jpg" alt="Turniervorbereitung und Teambuilding" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Turniervorbereitung & Teambuilding</h2>
+                    <div class="btn-container">
+                        <p>Planung eines Trainingsblocks zur Turniervorbereitung inklusive Teamstärkung und Spielanalyse.</p>
+                        <!-- <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            GitHub
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="./assets/arrow.png" alt="Arrow-top icon" class="icon arrow-top" onclick="location.href='./#desktop-nav'"/> -->
+        <img src="./assets/Fußball_icon.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <!-- Projects Section End -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Kontakt aufnehmen</p>
+        <h1 class="title"><span class="title-color">Kontaktieren</span> Sie Mich</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:bundschuhlaura@gmx.at">bundschuhlaura@gmx.at</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#experience">Erfahrung</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Laura Bundschuh. All Rights Reserved.</p>
+        <!-- <button id="scrollTopBtn"> Back to Top</button> -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+</body>
+</html>
